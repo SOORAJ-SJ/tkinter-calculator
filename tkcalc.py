@@ -7,7 +7,7 @@ tb=Entry(calc,width=30)
 tb.grid(row=0,column=0,columnspan=4,padx=2,pady=15,ipady=8)
 n=1
 for i in range(1,4):
-    for j in range(0,4):
+    for j in range(0,3):
         b=Button(calc,text=str(n))
         b.grid(row=i,column=j,ipadx=10,ipady=7,pady=5,padx=5)
         n+=1
